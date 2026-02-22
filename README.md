@@ -2,8 +2,7 @@
 
 Dead-simple utility for reading from input stream in C.
 
-> [!TODO]
-> Better Documentation
+> **TODO** Better Documentation
 
 ## Examples
 
