@@ -4,7 +4,7 @@
 #include "cg.h"
 
 int main() {
-    const char * filename = "mk_input.h";
+    const char * filename = "../mk_input.h";
     FILE * file = fopen(filename, "w");
     assert(file != NULL);
     
