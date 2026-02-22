@@ -5,7 +5,7 @@ int main() {
     MkScanner sc = mk_scanner_create_default();
     
     while (true) {
-        // We have functions for every native type and fixed-width integers as well
+        // We have functions for every native type
         const int n = mk_scanner_get_int(&sc);
         mk_scanner_clear_input(&sc);
         const MkStatus status = mk_scanner_get_status(&sc);
